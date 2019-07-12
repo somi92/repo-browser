@@ -7,7 +7,7 @@ export default function LoginSearch({ onSearch }) {
     <TextField
       id="outlined-name"
       label="Name"
-      style={{ width: "720px", marginBottom: "2rem" }}
+      style={{ width: "80%", marginBottom: "2rem" }}
       value={userName}
       onChange={event => setUserName(event.target.value)}
       margin="normal"
